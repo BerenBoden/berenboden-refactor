@@ -6,7 +6,7 @@ import fbclone from '../../images/fbclone.png'
 const Cards = () => {
     const cardInfo = [
         {key: 'webfirst', image: webfirst, title: 'Webfirst | Website and Content Creation', description: ['Webfirst was created using Gatsby, the main purpose of this website was to create websites for people and businesses, at the lowset possible price without using any Content Management Systems like WordPress. I choose gatsby as this website is needed to rank on Google for specific keywords like "web developers" etc... '], liveLink: 'https://webfirst.co.nz', codeLink: 'https://github.com/BerenBoden/webfirst-gatsby'},
-        {key: 'ecom', image: fbclone, title: '', description: [], liveLink: '', codeLink: ''},
+        {key: 'codification', image: fbclone, title: 'Expert Kubernetes consultancy | Codification.io', description: ['This '], liveLink: '', codeLink: ''},
         {key: 'fbclone', image: fbclone, title: '', description: [], liveLink: '', codeLink: ''},
         {key: 'twitterclone', image: fbclone, title: '', description: [], liveLink: '', codeLink: ''},
     ]
@@ -35,9 +35,12 @@ const Cards = () => {
     }
 
     return (
-        <div className="lg:px-48 md:px-24 px-6 grid xl:grid-cols-4 xl:grid-rows-1 xl:gap-4 lg:grid-rows-2 lg:grid-cols-2 gap-2 grid-rows-2 sm:grid-cols-2">
-            {cardInfo.map(renderCard)}
-        </div>
+        <>
+            <h1 className="lg:px-48 md:px-24 px-6 text-black font-bold text-3xl py-2">My Projects...</h1>
+            <div className="lg:px-48 md:px-24 px-6 grid xl:grid-cols-4 xl:grid-rows-1 xl:gap-4 lg:grid-rows-2 lg:grid-cols-2 gap-2 grid-rows-2 sm:grid-cols-2">
+                {cardInfo.map(renderCard)}
+            </div>
+        </>
     )
 }
 

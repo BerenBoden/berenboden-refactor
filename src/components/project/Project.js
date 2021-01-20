@@ -23,8 +23,14 @@ export class Project extends Component {
 
         return (
             <div>
-                <img className="object-cover relative w-screen top-0 z-0 h-64" src={showcaseImg} alt=""/>
-                <h1 className="absolute z-10 text-center mt-32 font-bold text-3xl text-white underline top-0 banner-head">{this.props.projects.title}</h1>
+                            <div>
+                <div className="flex justify-center">
+                    <div className="absolute z-10">
+                        <div className="text-center mt-32 font-bold md:text-3xl text-2xl capitalize text-white underline top-0 banner-head">{this.props.projects.title}</div>
+                    </div>
+                </div>
+                <img className="object-cover absolute w-screen relative top-0 z-0 h-64 md:shadow-2xl mb-24" src={showcaseImg} alt=""/>
+            </div>
                 <Layout>
                     <div>
                         {project}
