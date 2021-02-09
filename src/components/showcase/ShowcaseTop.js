@@ -16,7 +16,7 @@ const ShowcaseHome = () => {
                 <div className="xl:flex relative xl:mt-48 lg:mt-32 mt-24 z-10 text-white h-full mb-48">
                     <div className="xl:w-1/2"><h1 className="underline lg:text-4xl text-2xl lg:leading-10 font-bold">Web Development & Cyber Security</h1>
                         <p className="mt-6">Computer science and I.T enthusiast.
-                        Self taught, front end & back end web developer.
+                        Self taught, full stack web developer.
                         I'm interested in cyber security as a hobby, but I'm
                         currently working towards a career in web development.
                         </p>

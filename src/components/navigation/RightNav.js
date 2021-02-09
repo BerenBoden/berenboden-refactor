@@ -54,7 +54,7 @@ const RightNav = ({open}) => {
                 <a href="/projects"><i className="fa fa-folder" aria-hidden="true"></i>{element2}&nbsp;&nbsp;Projects</a>
             </li>
             <li>
-                <a href="/contact"><i className="fa fa-briefcase" aria-hidden="true"></i>{element3}&nbsp;&nbsp;Contact</a>
+                <a href="/contact"><i className="fa fa-briefcase" aria-hidden="true"></i>{element3}&nbsp;&nbsp;About</a>
             </li>
         </Ul>
     )
