@@ -27,6 +27,8 @@ import adobe from '../../images/adobe.svg';
 import microsoftOffice from '../../images/microsoft-office.svg';
 import jquery from '../../images/jquery.png';
 import typescript from '../../images/typescript.svg';
+import gatsby from '../../images/gatsby.svg';
+import nextjs from '../../images/nextjs.svg';
 
 const LangaugeCards = () => {
   const cardInfo = [
@@ -70,6 +72,11 @@ const LangaugeCards = () => {
       image: [less, sass, tailwindcss, bootstrap, materialUi],
       langauge: ["LESS", "SASS", "Tailwindcss", "Bootstrap", "Material UI"],
     },
+    {
+      title: "Content Managment Systems:",
+      image: [gatsby, nextjs],
+      langauge: ["GatsbyJS", "Next.JS"],
+    },
   ];
 
   const renderCard = (card) => {
@@ -81,24 +88,24 @@ const LangaugeCards = () => {
         <div>
           <div className="flex justify-evenly py-6">
             <div className="flex-col flex">
-              <img src={card.image[0]} alt="" className="w-16 h-16" />
-              <p>{card.langauge[0]}</p>
+              <img src={card.image[0]} alt="" className="xl:w-16 xl:h-16 lg:w-12 lg:h-12 h-8 w-8" />
+              <p className="text-sm">{card.langauge[0]}</p>
             </div>
             <div className="flex-col flex">
-              <img src={card.image[1]} alt="" className="w-16 h-16" />
-              <p>{card.langauge[1]}</p>
+              <img src={card.image[1]} alt="" className="xl:w-16 xl:h-16 lg:w-12 lg:h-12 h-8 w-8" />
+              <p className="text-sm">{card.langauge[1]}</p>
             </div>
             <div className="flex-col flex">
-              <img src={card.image[2]} alt="" className="w-16 h-16" />
-              <p>{card.langauge[2]}</p>
+              <img src={card.image[2]} alt="" className="xl:w-16 xl:h-16 lg:w-12 lg:h-12 h-8 w-8" />
+              <p className="text-sm">{card.langauge[2]}</p>
             </div>
             <div className="flex-col flex">
-              <img src={card.image[3]} alt="" className="w-16 h-16" />
-              <p>{card.langauge[3]}</p>
+              <img src={card.image[3]} alt="" className="xl:w-16 xl:h-16 lg:w-12 lg:h-12 h-8 w-8" />
+              <p className="text-sm">{card.langauge[3]}</p>
             </div>
             <div className="flex-col flex">
-              <img src={card.image[4]} alt="" className="w-16 h-16" />
-              <p>{card.langauge[4]}</p>
+              <img src={card.image[4]} alt="" className="xl:w-16 xl:h-16 lg:w-12 lg:h-12 h-8 w-8" />
+              <p className="text-sm">{card.langauge[4]}</p>
             </div>
           </div>
         </div>

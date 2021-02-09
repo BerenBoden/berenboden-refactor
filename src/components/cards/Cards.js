@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import webfirst from "../../images/webfirst.png";
 import codification from "../../images/codification.png";
-import fbclone from "../../images/fbclone.png";
+import working from "../../images/working.png";
+import gdrive from '../../images/google-drive-project.png'
 
 const Cards = () => {
   const cardInfo = [
@@ -25,18 +26,18 @@ const Cards = () => {
       codeLink: "",
     },
     {
-      key: "fbclone",
-      image: fbclone,
-      title: "",
-      description: [],
-      liveLink: "",
-      codeLink: "",
+      key: "gdrive",
+      image: gdrive,
+      title: "Google Drive Clone With React.JS",
+      description: ["This project was created using React.JS and it allows you to upload files and it copies the design on Google Drive. This app uses Google authentication for users to sign in with their Google accounts and allows you to upload images and files to a database."],
+      liveLink: "https://drive-57245.web.app/",
+      codeLink: "https://github.com/BerenBoden/google-drive",
     },
     {
-      key: "twitterclone",
-      image: fbclone,
+      key: "in-progress",
+      image: working,
       title: "",
-      description: [],
+      description: [""],
       liveLink: "",
       codeLink: "",
     },
@@ -79,7 +80,7 @@ const Cards = () => {
 
   return (
     <>
-      <h1 className="lg:px-48 md:px-24 px-6 text-black font-bold text-3xl underline py-2">
+      <h1 className="lg:px-48 md:px-24 px-6 text-black font-bold lg:text-3xl md:text-2xl text-xl underline py-2">
         My Projects...
       </h1>
       <div className="lg:px-48 md:px-24 px-6 grid xl:grid-cols-4 xl:grid-rows-1 xl:gap-4 lg:grid-rows-2 lg:grid-cols-2 gap-2 grid-rows-2 sm:grid-cols-2">

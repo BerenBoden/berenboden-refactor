@@ -6,7 +6,6 @@ import "./Project.css";
 
 export class Project extends Component {
   render() {
-    console.log(this.props);
     const project = this.props.projects ? (
       <div>
         <div className="mt-10">

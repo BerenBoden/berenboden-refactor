@@ -4,7 +4,7 @@ import Navigation from './components/navigation/Navigation';
 import Home from './pages/home/Home';
 import Projects from './pages/projects/Projects';
 import Contact from './pages/contact/Contact';
-import Default from './components/default/Default';
+import Default from './pages/default/Default';
 import Project from './components/project/Project';
 import Footer from './components/footer/Footer'
 
@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/projects" component={Projects}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/:project_id" component={Project}/>
-        <Route path="*" exact={true} component={Default} />
+        <Route component={Default} />
       </Switch>
       <Footer />
     </Router>

@@ -28,9 +28,7 @@ const Contact = () => {
         </div>
         <div>
           <p className="py-4">
-            I work specifically with the MERN stack, and build websites from the
-            ground up. I am skilled with AWS, Azure and Firebase cloud services
-            for hosting.
+          I am a full-stack web developer and typically program in JavaScript and its many frameworks and libraries. I also am skilled in using cloud services like Azure, AWS, and Firebase for uploading and hosting websites. I know how to package and deploy websites using build tools like Web Pack. I also know a bit about databases and how to retrieve and store data in a database using Node.JS and MongoDB. I am very passionate about web development and love learning new technologies and skills. 
           </p>
           <LangaugeCards />
         </div>

@@ -64,7 +64,7 @@ const CertCards = () => {
 
   return (
     <>
-      <h1 className="lg:px-48 md:px-24 px-6 mt-16 text-black font-bold text-3xl underline py-2">
+      <h1 className="lg:px-48 md:px-24 px-6 mt-16 text-black font-bold lg:text-3xl md:text-2xl text-xl underline py-2">
         My Certifications...
       </h1>
       <div className="lg:px-48 md:px-24 px-6 grid xl:grid-cols-4 xl:grid-rows-1 xl:gap-4 lg:grid-rows-2 lg:grid-cols-2 gap-2 grid-rows-2 sm:grid-cols-2">

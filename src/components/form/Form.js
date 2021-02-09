@@ -145,7 +145,7 @@ const Form = () => {
                 </div>
                 <div className="ml-4">
                   <h1 className="font-bold text-xl">Phone:</h1>
-                  <p className="text-sm">(64+) 0212089217</p>
+                  <p className="md:text-sm text-xs">(64+) 0212089217</p>
                 </div>
               </div>
               <div className="flex my-4">
@@ -246,7 +246,7 @@ const Form = () => {
                 </div>
                 <div className="ml-4">
                   <h1 className="font-bold text-xl">Email:</h1>
-                  <p className="text-sm">beren.boden@gmail.com</p>
+                  <p className="md:text-sm text-xs">beren.boden@gmail.com</p>
                 </div>
               </div>
               <svg
