@@ -2,25 +2,27 @@ import React from "react";
 import ProjectCards from "../../components/project/Projects";
 import showcaseImg from "../../images/banner-bg.png";
 import working from "../../images/working.png";
+import fbclone from '../../images/fbclone.png'
+import twitterclone from '../../images/twitterclone.png'
 import { Link } from "react-router-dom";
 
 const Projects = () => {
   const cardInfo = [
     {
-      key: "in-progress",
-      image: working,
-      title: "",
-      description: [""],
-      liveLink: "",
-      codeLink: "",
+      key: "fbclone",
+      image: fbclone,
+      title: "Live Status Messager Facebook Clone",
+      description: ["This application was cloned to look lke the front page of Facebook and uses a realtime database to store collections of messages that a user can input and displays them in real time."],
+      liveLink: "https://fb-clone-da943.web.app/",
+      codeLink: "https://github.com/BerenBoden/facebook-clone",
     },
     {
-      key: "in-progress",
-      image: working,
-      title: "",
+      key: "twiterclone",
+      image: twitterclone,
+      title: "Twitter Clone With React & Firebase",
       description: [""],
-      liveLink: "",
-      codeLink: "",
+      liveLink: "https://twitter-clone-3cf1b.web.app/",
+      codeLink: "https://github.com/BerenBoden/twitter-clone",
     },
     {
       key: "in-progress",

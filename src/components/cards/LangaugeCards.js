@@ -29,6 +29,7 @@ import jquery from '../../images/jquery.png';
 import typescript from '../../images/typescript.svg';
 import gatsby from '../../images/gatsby.svg';
 import nextjs from '../../images/nextjs.svg';
+import redux from '../../images/redux.svg';
 
 const LangaugeCards = () => {
   const cardInfo = [
@@ -39,8 +40,8 @@ const LangaugeCards = () => {
     },
     {
       title: "Frameworks & Libraries / Runtime Environments",
-      image: [reactjs, jquery, node, express],
-      langauge: ["React.JS", "JQuery", "Node.JS", "Express.JS"],
+      image: [reactjs, jquery, node, express, redux],
+      langauge: ["React.JS", "JQuery", "Node.JS", "Express.JS", "Redux"],
     },
     {
       title: "Databases:",
@@ -49,8 +50,8 @@ const LangaugeCards = () => {
     },
     {
       title: "Cloud Services:",
-      image: [aws, digitalOcean, heroku, azure, firebase],
-      langauge: ["AWS", "Digital Ocean", "Heroku", "Azure", "Firebase"],
+      image: [aws, digitalOcean, heroku, azure, firebase, redux],
+      langauge: ["AWS", "Digital Ocean", "Heroku", "Azure", "Firebase", "Redux"],
     },
     {
       title: "Applications:",

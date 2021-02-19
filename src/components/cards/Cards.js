@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import webfirst from "../../images/webfirst.png";
 import codification from "../../images/codification.png";
-import working from "../../images/working.png";
 import gdrive from '../../images/google-drive-project.png'
+import discordClone from "../../images/discord-clone.png";
 
 const Cards = () => {
   const cardInfo = [
@@ -22,7 +22,7 @@ const Cards = () => {
       image: codification,
       title: "Expert Kubernetes consultancy | Codification.io",
       description: ["For my very first freelancing job on UpWork I was invited to help with front-end development for the company Codification.io. This website is for teaching employees of companies about cloud services such as Kubernetes and Azure etc... I mainly contributed to front end development on codification.io and coficication.bootcamp.io. "],
-      liveLink: "",
+      liveLink: "https://codification.io",
       codeLink: "",
     },
     {
@@ -34,12 +34,12 @@ const Cards = () => {
       codeLink: "https://github.com/BerenBoden/google-drive",
     },
     {
-      key: "in-progress",
-      image: working,
-      title: "",
-      description: [""],
-      liveLink: "",
-      codeLink: "",
+      key: "discord-clone",
+      image: discordClone,
+      title: "Live Discord Chat Application Using React and Redux",
+      description: ["This was created to copy a popular live messaging application called Discord, it uses a real-time database to store a user's input as a message and displays it on the screen in real-time. This application also uses Redux store for storing app data and user data and it uses persistence so you stay signed in, even if you refresh the page unless you sign out. You can also log in with Google and it will display your name and profile picture."],
+      liveLink: "https://discord-clone-7d2eb.web.app/",
+      codeLink: "https://github.com/BerenBoden/discord-clone",
     },
   ];
 
